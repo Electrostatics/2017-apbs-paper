@@ -85,7 +85,7 @@ In this manuscript, we discuss the models and capabilities that have recently be
 
 \section{Introduction}
 Robust models of electrostatic interactions are important for understanding early molecular recognition events where long-ranged intermolecular interactions and the effects of solvation on biomolecular processes dominate.
-While explicit electrostatic models that treat the solute and solvent in atomic detail are common, these approaches generally require extensive equilibration and sampling to converge properties of interest in the statistical ensemble of interest.
+While explicit electrostatic models that treat the solute and solvent in atomic detail are common, these approaches generally require extensive equilibration and sampling to converge properties of interest in the statistical ensemble of interest~\cite{Ren2012}.
 Coarse-graining approaches that integrate out important, but largely uninteresting degrees of freedom, sacrifice numerical precision in favor of robust but qualitative accuracy and efficiency by eliminating the need for sampling and equilibration associated with explicit solute and solvent models. 
 
 While there is a choice among several implicit solvation models~\cite{Davis1990, Perutz1978, Ren2012, Sharp1990, Roux1999, Warshel2006}, one of the most popular implicit solvent models for biomolecules is based on the Poisson-Boltzmann (PB) equation~\cite{Fixman1979, Grochowski2008, Lamm2003}.
@@ -128,7 +128,7 @@ We describe these new approaches in the remainder of the paper, and more detaile
 
 \section{Preparing biomolecular structures} \label{sec:prep}
 Electrostatics calculations begin with specification of the molecule structure and parameters for the charge and size of the constituent atoms.
-Constituent atoms are generally grouped in types with charge and size values specified by atom type in a variety of force field files developed for implicit solvent calculations~\cite{Ren2012}.
+\revision{Constituent atoms are generally grouped in types with charge and size values specified by atom type in a variety of force field files developed for implicit solvent calculations~\cite{Ren2012}.}
 APBS incorporates this information into calculations via the ``PQR'' format. PQR is a file format of unknown origins used by several software packages such as MEAD~\cite{Bashford1997} and AutoDock~\cite{Morris2009}.
 The PQR file simply replaces the temperature and occupancy columns of a PDB flat file~\cite{PDBflat} with the per-atom charge ($Q$) and radius ($R$).
 There are much more elegant ways to implement the PQR functionality through more modern extensible file formats such as mmCIF~\cite{mmCIF} or PDBML~\cite{PDBML}; however, the simple PDB format is still one of the most widely used formats and, therefore, continued use of the PQR format supports broad compatibility across biomolecular modeling tools and workflows.
@@ -141,7 +141,7 @@ Some of the key steps in PDB2PQR are described below.
 \paragraph{Repairing missing heavy atoms}
 Within PDB2PQR, the PDB file is examined to see if there are missing heavy (non-hydrogen) atoms.
 Missing heavy atoms can be rebuilt using standard amino acid topologies in conjunction with existing atomic coordinates to determine new positions for the missing heavy atoms.
-A \textit{debump} option performs very limited minimization of sidechain $\chi$ angles to reduce steric clashes between rebuilt and existing atoms.
+\revision{A \textit{debump} option performs very limited minimization of sidechain $\chi$ angles to reduce steric clashes between rebuilt and existing atoms~\cite{Dolinsky2004}.}
 
 \paragraph{Optimizing titration states}
 Amino acid tit\-rat\-ion states are important determinants of bio\-molecular (particularly enzymatic) function and can be used to assess functional activity and identify active sites.
@@ -153,13 +153,13 @@ The APBS-PDB2PQR system contains several methods for this analysis.
 	The empirical PROPKA method has surprising accuracy for fast evaluation of protein p$K_a$ values~\cite{Li2005}.
 	\item \textit{Implicit solvent methods.}
 	PDB2PQR also contains two methods for using implicit solvent (Poisson-Boltzmann) models for predicting residue titration states.
-	The first method uses Metropolis Monte Carlo to calculating titration curves and p$K_a$ values (PDB2PKA); however, sampling issues can be a major problem with Monte Carlo methods when searching over the $\mathcal{O}\left(2^N\right)$ titration states of $N$ titratable residues.
+	The first method uses Metropolis Monte Carlo to \revision{calculate} titration curves and p$K_a$ values (PDB2PKA); however, sampling issues can be a major problem with Monte Carlo methods when searching over the $\mathcal{O}\left(2^N\right)$ titration states of $N$ titratable residues.
 	The second method is a new polynomial-time algorithm for the optimization of discrete states in macromolecular systems~\cite{Purvine2016}.
 	This method transforms interaction energies between titratable groups into a graphical flow network.
 	The polynomial-time $\mathcal{O}\left(N^4\right)$ behavior makes it possible to rigorously evaluate titration states for much larger proteins than Monte Carlo methods.
 \end{itemize}
 
-\paragraph{Adding missing hydrogens.}
+\paragraph{Adding missing hydrogens}
 The majority of PDB entries do not include hydrogen positions.
 Given a titration state assignment, PDB2PQR uses Monte Carlo sampling to position hydrogen atoms and optimize the global hydrogen-bonding network in the structure~\cite{Nielsen2001}.
 Newly added hydrogen atoms are checked for steric conflicts and optimized via the debumping procedure discussed above.
@@ -203,7 +203,7 @@ Additional information about the boundary element method and its implementation 
 %%%
 \begin{figure}
 	\centering
-	\includegraphics[width=0.95\linewidth]{figs/TABI-MG.png} 
+	\includegraphics[width=0.80\linewidth]{figs/TABI-MG} 
 	\caption{Electrostatic potential visualization of protein with PDB ID 3app for (A) APBS multigrid and (B) TABI-PB. VMD~\cite{Humphrey1996} was used to generate the figure in (A), and VTK to generate the figure in (B). The potentials are on a $[-4, 4]$ red-white-blue color map in units of kJ/mol/e.
 		Calculations were performed at 0.15 M ionic strength in monovalent salt, 298.15 Kelvin, protein dielectric 2, and solvent dielectric 78.
 	}
@@ -213,7 +213,7 @@ Additional information about the boundary element method and its implementation 
 
 
 \subsection{Analytical and semi-analytical methods} \label{sec:pbam}
-Numerical solution methods tend to be computationally intensive, which has led to the adoption analytical approaches for solvation calculations such as generalized Born~\cite{Bashford2000} and the approaches developed by Head-Gordon and implemented in APBS.
+Numerical solution methods tend to be computationally intensive, which has led to the adoption \revision{of} analytical approaches for solvation calculations such as generalized Born~\cite{Bashford2000} and the approaches developed by Head-Gordon and implemented in APBS.
 In particular, the Poisson-Boltzmann Analytical Method (PB-AM), was developed by Lotan and Head-Gordon in 2006~\cite{Lotan2006}.
 PB-AM produces a fully analytical solution to the linearized PB equation for multiple macromolecules, represented as coarse-grained low-dielectric spheres.
 This spherical domain enables the use of a multipole expansion to represent charge-charge interactions and higher order cavity polarization effects.
@@ -255,9 +255,8 @@ Additional details about these methods and their use in APBS are presented in Ap
 \subsection{Visualization}
 One of the primary uses of the APBS tools is to generate electrostatic potentials for use in biomolecular visualization software.
 These packages offer both the ability to visualize APBS results as well as a graphical interface for setting up the calculation.
-Several of these software packages are thick clients that run from users' computers, including PyMOL~\cite{PyMOL, PyMOLweb}, VMD~\cite{VMDweb, Humphrey1996}, 
-PMV~\cite{PMV, MGLToolsweb}, and Chimera~\cite{Chimeraweb, Pettersen2004}.
-We have also worked with the developers of Jmol~\cite{Jmolweb, Herraez2006} and 3Dmol.js~\cite{3Dmolweb, Rego2015}. to provide web-based setup and visualization of APBS-PDB2PQR calculations and related workflows.
+Several of these software packages are thick clients that run from users' computers, including PyMOL~\cite{PyMOL, PyMOLweb}, VMD~\cite{VMDweb, Humphrey1996}, PMV~\cite{PMV, MGLToolsweb}, and Chimera~\cite{Chimeraweb, Pettersen2004}.
+We have also worked with the developers of Jmol~\cite{Jmolweb, Herraez2006} and 3Dmol.js~\cite{3Dmolweb, Rego2015} to provide web-based setup and visualization of APBS-PDB2PQR calculations and related workflows.
 APBS integration with Jmol has been described previously~\cite{Unni2011}.
 3Dmol.js is a molecular viewer that offers the performance of a desktop application and convenience of a web-based viewer which broadens accessibility for all users.
 As part of the integration with 3Dmol.js, we implemented additional enhancements, including extending our output file formats and creating a customized user interface.
@@ -290,8 +289,8 @@ APBS also plays a key role in PIPSA for protein surface electrostatics analysis~
 As discussed above with PB-SAM, another application area for implicit solvent methods is in the evaluation of biomolecular kinetics where implicit solvent models are generally used to provide solvation forces (or energies) for performing (or analyzing) discrete molecular or continuum diffusion simulations with APBS in both of these areas~\cite{Dror2013, Martinez2015, Cheng2007, Cheng2007a, Song2004a, Song2004a, Elcock2004, Mereghetti2012}.
 
 \section{The future of APBS}
-To help with modularity and to facilitate extensibility, APBS was based on a object-oriented programming paradigm with strict ANSI-C compliance.
-This ``Clean OO C''~\cite{CleanOOC} has enabled the long-term sustainability of APBS and by combining an object-oriented design framework with the portability and speed of C.
+\revision{To help with modularity and to facilitate extensibility, APBS was based on an object- oriented programming paradigm with strict ANSI-C compliance.
+This ``Clean OO C''~\cite{CleanOOC} has enabled the long-term sustainability of APBS by combining an object-oriented design framework with the portability and speed of C.}
 This object-oriented design framework has made it relatively straightforward to extend APBS functionality and incorporate new features.
 
 The Clean OO C design has served APBS well for the past 17 years.
@@ -367,14 +366,14 @@ For \keyword{mg-auto} or \keyword{mg-para} calculations, the grid spacing is det
 Grid lengths should extend sufficient distance away from the biomolecule so that the chosen boundary condition is accurate. 
 In general, setting the length of the coarsest grid to approximately 1.5 times the size of the biomolecule gives reasonable results.
 However, as a best practice, it is important to ensure that the calculated quantities of interest do not change significantly with grid spacing or grid length.
-The center of the finite difference grid can be specified by the \keyword{gcent} command for \keyword{mg-manual} calculations or by the \keyword{cgcent} and {fgcent} keywords for the coarse and fine grids (respectively) in \keyword{mg-auto} or \keyword{mg-para} focusing calculations.
+The center of the finite difference grid can be specified by the \keyword{gcent} command for \keyword{mg-manual} calculations or by the \keyword{cgcent} and \keyword{fgcent} keywords for the coarse and fine grids (respectively) in \keyword{mg-auto} or \keyword{mg-para} focusing calculations.
 These keywords can be used to specify absolute grid centers (in Cartesian coordinates) or relative centers based on molecule location.
 Because of errors associated with charge discretization, it is generally a good idea to keep the positions of molecules on a grid fixed for all calculations.
 For example, a binding calculation for rigid molecules should keep all molecules in the same positions on the grid.
 
 \paragraph{Charge discretization}
 As mentioned above, atomic charge distributions are often modeled as a collection of Dirac delta functions or other basis functions with extremely small spatial support.
-However, finite difference calculations on performed on grids with finite spacing, requiring charges to be mapped across several grid points.
+However, finite difference calculations \revision{performed} on grids with finite spacing, requiring charges to be mapped across several grid points.
 This mapping creates significant dependence of the electrostatic potential on the grid spacing which is why it is always important to use the same grid setup for all parts of an electrostatic calculation.
 The \keyword{chgm} keyword controls the interpolation scheme used for charge distributions and includes the following types of discretization schemes:
 \begin{itemize}
@@ -400,10 +399,10 @@ APBS provides several difference surface definitions through the \keyword{srfm} 
 	With a non-zero solvent radius (\keyword{srad}), this choice of coefficient corresponds to the traditional definition used for PB calculations.
 	When the solvent radius is set to zero, this corresponds to a van der Waals surface definition.
 	The ion-accessibility coefficient is defined by an ``inflated'' van der Waals model.
-	Specifically, the radius of each biomolecular atom is increased by the radius of the ion species (as specified with the ion keyword).
+	Specifically, the radius of each biomolecular atom is increased by the radius of the ion species (as specified with the \keyword{ion} keyword).
 	The problem domain is then divided into two spaces.
 	The space inside the union of these inflated atomic spheres is assigned an ion-accessibility value of 0; the complement space is assigned bulk ion accessibility values.
-	\item \keyword{smol}: The dielectric and ion-accessibility coefficients are defined as for mol (see above).
+	\item \keyword{smol}: The dielectric and ion-accessibility coefficients are defined as for \keyword{mol} (see above).
 	However, they are then ``smoothed'' by a 9-point harmonic averaging to somewhat reduce sensitivity to the grid setup~\cite{Bruccoleri1997}.
 	\item \keyword{spl2}: The dielectric and ion-accessibility coefficients are defined by a cubic-spline surface~\cite{IBR98}.
 	The width of the dielectric interface is controlled by the \keyword{swin} parameter.
@@ -460,7 +459,7 @@ This appendix provides additional information about the boundary element method 
 
 \subsubsection{Boundary element method background}
 This section provides additional background on the TABI-PB boundary element solver \cite{Geng2013}, introduced in Section~\ref{sec:bem}.
-As described earlier, this method involves solving two coupled integral equations defined on the solute-solvent boundary define a mathematical relationship between the electrostatic surface potential and its normal derivative with a set of integral kernels consisting of Coulomb and screened Coulomb potentials with their normal derivatives.
+As described earlier, this method involves solving two coupled integral equations defined on the solute-solvent boundary \revision{which} define a mathematical relationship between the electrostatic surface potential and its normal derivative with a set of integral kernels consisting of Coulomb and screened Coulomb potentials with their normal derivatives.
 The boundary element method requires a surface triangulation, generated by a program such as MSMS~\cite{Sanner1995} or NanoShaper~\cite{Decherchi2013}, on which to discretize the integral equations.
 Figure~\ref{fig:surface-mesher} shows different types of surface discretizations as well as example electrostatic potential output.
 %%%
@@ -592,7 +591,7 @@ Major options include:
 \end{itemize}
 Additional information about parameter settings is provided via the APBS website~\cite{APBSweb}. 
 TABI-PB produces output including the potential and normal derivative of potential for every element and vertex of the triangularization, as well as the electrostatic solvation energy.
-Examples of electrostatic surface potential on the protein 1a63 are shown in Figure~\ref{fig:surface-potential} by using MSMS and NanoShaper.
+Examples of electrostatic surface potential on the protein 1a63 are shown in Figure~\ref{fig:tabi-mg-comparison} by using MSMS and NanoShaper.
 
 \subsection{Analytical and semi-analytical method implementations} \label{app:pbam}
 This appendix provides additional information about the analytical and semi-analytic methods \cite{Felberg2017, Lotan2006} introduced in Section~\ref{sec:pbam}.
@@ -753,7 +752,8 @@ Major options include:
 	Typical values for \param{val} are between 1 and 5 \AA.
 \end{itemize}
 The commands (keywords) not included in this list are used to specify system conditions, such as temperature and salt concentration. These parameters are similar to those found in the \keyword{ELEC} section of a usual APBS run and are documented on the Contributions portion of the APBS website~\cite{APBSweb}. 
-Additional information about parameter settings is provided via the APBS website~\cite{APBSweb}. Examples of the electrostatic potentials produced from PB-AM and PB-SAM are shown in Figures~\ref{fig:pbam-results} and~\ref{fig:pbsam-results}, respectively.
+Additional information about parameter settings is provided via the APBS website~\cite{APBSweb}.
+\revision{Examples of the electrostatic potentials produced from PB-AM and PB-SAM are shown in Figure~\ref{fig:pbsam-results}.}
 
 \printbibliography
 
