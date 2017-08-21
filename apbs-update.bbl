@@ -19,59 +19,6 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
-    \entry{Davis1990}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9a056820e2b7a7ef688b3515505ebbeb}{%
-           family={Davis},
-           familyi={D\bibinitperiod},
-           given={M.\bibnamedelimi E.},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=7aa74fb80b018197bd6f6e55fb63e3bf}{%
-           family={McCammon},
-           familyi={M\bibinitperiod},
-           given={J\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{f076f2e2e51f35a1bf9df9d95a211e81}
-      \strng{fullhash}{f076f2e2e51f35a1bf9df9d95a211e81}
-      \strng{authornamehash}{f076f2e2e51f35a1bf9df9d95a211e81}
-      \strng{authorfullhash}{f076f2e2e51f35a1bf9df9d95a211e81}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Chemical Reviews}
-      \field{number}{3}
-      \field{title}{Electrostatics in biomolecular structure and dynamics}
-      \field{volume}{90}
-      \field{year}{1990}
-      \field{pages}{509\bibrangedash 521}
-      \range{pages}{13}
-    \endentry
-    \entry{Perutz1978}{article}{}
-      \name{author}{1}{}{%
-        {{hash=02305c2bcb6b50103f016d95f45c621f}{%
-           family={Perutz},
-           familyi={P\bibinitperiod},
-           given={M\bibnamedelima F},
-           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \strng{namehash}{02305c2bcb6b50103f016d95f45c621f}
-      \strng{fullhash}{02305c2bcb6b50103f016d95f45c621f}
-      \strng{authornamehash}{02305c2bcb6b50103f016d95f45c621f}
-      \strng{authorfullhash}{02305c2bcb6b50103f016d95f45c621f}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Science}
-      \field{number}{4362}
-      \field{title}{Electrostatic effects in proteins}
-      \field{volume}{201}
-      \field{year}{1978}
-      \field{pages}{1187\bibrangedash 91}
-      \range{pages}{5}
-    \endentry
     \entry{Ren2012}{article}{}
       \name{author}{7}{}{%
         {{hash=65a16c630759fa55936931757b5371ba}{%
@@ -129,6 +76,59 @@
       \verb 10.1017/S003358351200011X
       \endverb
     \endentry
+    \entry{Davis1990}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9a056820e2b7a7ef688b3515505ebbeb}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=7aa74fb80b018197bd6f6e55fb63e3bf}{%
+           family={McCammon},
+           familyi={M\bibinitperiod},
+           given={J\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f076f2e2e51f35a1bf9df9d95a211e81}
+      \strng{fullhash}{f076f2e2e51f35a1bf9df9d95a211e81}
+      \strng{authornamehash}{f076f2e2e51f35a1bf9df9d95a211e81}
+      \strng{authorfullhash}{f076f2e2e51f35a1bf9df9d95a211e81}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{3}
+      \field{title}{Electrostatics in biomolecular structure and dynamics}
+      \field{volume}{90}
+      \field{year}{1990}
+      \field{pages}{509\bibrangedash 521}
+      \range{pages}{13}
+    \endentry
+    \entry{Perutz1978}{article}{}
+      \name{author}{1}{}{%
+        {{hash=02305c2bcb6b50103f016d95f45c621f}{%
+           family={Perutz},
+           familyi={P\bibinitperiod},
+           given={M\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{02305c2bcb6b50103f016d95f45c621f}
+      \strng{fullhash}{02305c2bcb6b50103f016d95f45c621f}
+      \strng{authornamehash}{02305c2bcb6b50103f016d95f45c621f}
+      \strng{authorfullhash}{02305c2bcb6b50103f016d95f45c621f}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{4362}
+      \field{title}{Electrostatic effects in proteins}
+      \field{volume}{201}
+      \field{year}{1978}
+      \field{pages}{1187\bibrangedash 91}
+      \range{pages}{5}
+    \endentry
     \entry{Sharp1990}{article}{}
       \name{author}{2}{}{%
         {{hash=e3afbbebacdd715e206208f37027fd6a}{%
@@ -146,8 +146,8 @@
       \strng{fullhash}{dbc75e8c43984cfb6362253d72db8bcb}
       \strng{authornamehash}{dbc75e8c43984cfb6362253d72db8bcb}
       \strng{authorfullhash}{dbc75e8c43984cfb6362253d72db8bcb}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Biophysics and Biophysical Chemistry}
@@ -177,8 +177,8 @@
       \strng{fullhash}{ada11a450d6ef667ae73bb94ab05dfc9}
       \strng{authornamehash}{ada11a450d6ef667ae73bb94ab05dfc9}
       \strng{authorfullhash}{ada11a450d6ef667ae73bb94ab05dfc9}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Chemistry}
@@ -216,8 +216,8 @@
       \strng{fullhash}{498fe6c93ebad2591943ffbca7a60dde}
       \strng{authornamehash}{4190841d0970d17c1baa7b191089cf15}
       \strng{authorfullhash}{498fe6c93ebad2591943ffbca7a60dde}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochimica et Biophysica Acta}
@@ -243,8 +243,8 @@
       \strng{fullhash}{c2e5fd3ca5ffbac53a771fc70fc3ebc4}
       \strng{authornamehash}{c2e5fd3ca5ffbac53a771fc70fc3ebc4}
       \strng{authorfullhash}{c2e5fd3ca5ffbac53a771fc70fc3ebc4}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Chemical Physics}
@@ -271,8 +271,8 @@
       \strng{fullhash}{2a1a590ff5875443fc2eac092c1b4c1e}
       \strng{authornamehash}{2a1a590ff5875443fc2eac092c1b4c1e}
       \strng{authorfullhash}{2a1a590ff5875443fc2eac092c1b4c1e}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biopolymers}
@@ -324,8 +324,8 @@
       \strng{fullhash}{d1bb9ce4287b7283e80f703c220cd37c}
       \strng{authornamehash}{4e8f34b067a23830c913762534d76ed6}
       \strng{authorfullhash}{d1bb9ce4287b7283e80f703c220cd37c}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Reviews in Computational Chemistry}
@@ -352,8 +352,8 @@
       \strng{fullhash}{dac44e04f7a9c678c83b5bf80adb24d5}
       \strng{authornamehash}{dac44e04f7a9c678c83b5bf80adb24d5}
       \strng{authorfullhash}{dac44e04f7a9c678c83b5bf80adb24d5}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A program is described for drawing the van der Waal's surface of a protein molecule. An extension of the program permits the accessibility of atoms, or groups of atoms, to solvent or solute molecules of specified size to be quantitatively assessed. As defined in this study, the accessibility is proportional to surface area. The accessibility of all atoms in the twenty common amino acids in model tripeptides of the type Ala-X-Ala are given for defined conformation. The accessibilities are also given for all atoms in ribonuclease-S, lysozyme and myogoblin. Internal cavities are defined and discussed. Various summaries of these data are provided. Forty to fifty per cent of the surface area of each protein is occupied by non-polar atoms. The actual numerical results are sensitive to the values chosen for the van der Waal's radii of the various groups. Since there is uncertainty over the correct values for these radii, the derived numbers should only be used as a qualitative guide at this stage. The average change in accessibility for the atoms of all three proteins in going from a hypothetical extended chain to the folded conformation of the native protein is about a factor of 3. This number applies to both polar (nitrogen and oxygen) and non-polar (carbon and sulfur) atoms considered separately. The larger non-polar amino acids tend to be more "buried" in the native form of all three proteins. However, for all classes and for residues within a given class the accessibility changes on folding tend to be highly variable. ?? 1971.}
@@ -391,8 +391,8 @@
       \strng{fullhash}{e82fc7978e0746b271788bcb64793e0f}
       \strng{authornamehash}{e82fc7978e0746b271788bcb64793e0f}
       \strng{authorfullhash}{e82fc7978e0746b271788bcb64793e0f}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{European Physical Journal E: Soft Matter}
@@ -589,8 +589,8 @@
       \strng{fullhash}{c2cb50b8525440430e5cff9239d9b7c6}
       \strng{authornamehash}{2eb30d24e9baee9c921e2c7f47653db1}
       \strng{authorfullhash}{c2cb50b8525440430e5cff9239d9b7c6}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Chemistry}
@@ -665,8 +665,8 @@
       \strng{fullhash}{a7133447f43984bb083ff965dc214cd4}
       \strng{authornamehash}{2a68ce308067f5db0ef0fd529612e4aa}
       \strng{authorfullhash}{a7133447f43984bb083ff965dc214cd4}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Chemistry}
@@ -678,6 +678,77 @@
       \range{pages}{21}
       \verb{doi}
       \verb 10.1002/jcc.20290
+      \endverb
+    \endentry
+    \entry{Sarkar2012}{article}{}
+      \name{author}{10}{}{%
+        {{hash=4c305f909afd2192eedb6f46f0883d14}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d32559a5fc6b9c48ad950f89259bc465}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3ff4d087ac92534a82647e5f3761faa1}{%
+           family={Sarkar},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8afab9bdc9b292debbeb136dfd97036c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0a4af14b3665dbe38d2b9f7e78c7d1bc}{%
+           family={Witham},
+           familyi={W\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5ee5d3d5470ac29a2e7c8df70ed54725}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6cc15f8bd5af49c40b4473a44c2163e2}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=56350ef75be65f31a738fc3d49fec5e3}{%
+           family={Petukh},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d1c6756d10a794f14f1be963b5e8ef5}{%
+           family={Alexov},
+           familyi={A\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{24171f47d015b0997d5f9bc82b011eae}
+      \strng{fullhash}{b83ff32d4f5a48ae80fdb9c9b353ff6e}
+      \strng{authornamehash}{24171f47d015b0997d5f9bc82b011eae}
+      \strng{authorfullhash}{b83ff32d4f5a48ae80fdb9c9b353ff6e}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Biophysics}
+      \field{title}{DelPhi: a comprehensive suite for DelPhi software and associated resources}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{pages}{9}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/2046-1682-5-9
       \endverb
     \endentry
     \entry{Bochevarov2013}{article}{}
@@ -737,8 +808,8 @@
       \strng{fullhash}{d7e2e70462e9e062dcadd29819e5981e}
       \strng{authornamehash}{3c7e961361eb31166a5bf74aeb49ed84}
       \strng{authorfullhash}{d7e2e70462e9e062dcadd29819e5981e}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Quantum Chemistry}
@@ -774,8 +845,8 @@
       \strng{fullhash}{b2313319633ee9d6ffe6f4bf1ec96708}
       \strng{authornamehash}{b2313319633ee9d6ffe6f4bf1ec96708}
       \strng{authorfullhash}{b2313319633ee9d6ffe6f4bf1ec96708}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Chemistry}
@@ -1066,8 +1137,8 @@
       \strng{fullhash}{0685ff77d0e203e59551c7211ca47555}
       \strng{authornamehash}{0685ff77d0e203e59551c7211ca47555}
       \strng{authorfullhash}{0685ff77d0e203e59551c7211ca47555}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computational Science and Discovery}
@@ -1080,8 +1151,8 @@
       \endverb
     \endentry
     \entry{iAPBSweb}{unpublished}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://mccammon.ucsd.edu/iapbs/}}
       \field{title}{{iAPBS} website}
@@ -1540,8 +1611,8 @@
       \strng{fullhash}{a3b58feda8c2b8b97a6aa69f4169b378}
       \strng{authornamehash}{ca2236657982b17935b77a87662f66f9}
       \strng{authorfullhash}{a3b58feda8c2b8b97a6aa69f4169b378}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Bioinformatics}
@@ -1651,16 +1722,6 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1093/nar/gkm276
-      \endverb
-    \endentry
-    \entry{sed}{unpublished}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.gnu.org/software/sed/manual/sed.html}}
-      \field{title}{sed - a stream editor}
-      \verb{url}
-      \verb https://www.gnu.org/software/sed/manual/sed.html
       \endverb
     \endentry
     \entry{Sondergaard2011}{article}{}
@@ -1917,8 +1978,8 @@
       \strng{fullhash}{a6d9f434467567f302950d6b735aff35}
       \strng{authornamehash}{a6d9f434467567f302950d6b735aff35}
       \strng{authorfullhash}{a6d9f434467567f302950d6b735aff35}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physical Chemistry}
@@ -1959,8 +2020,8 @@
       \strng{fullhash}{ba7459084283c6124b2bd9d130b16e72}
       \strng{authornamehash}{2e85c3364d6eefae3d121c352a388505}
       \strng{authorfullhash}{ba7459084283c6124b2bd9d130b16e72}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{For routine pKa calculations of protein-ligand complexes in drug design, the PEOE method to compute partial charges was modified. The new method is applicable to a large scope of proteins and ligands. The adapted charges were parameterized using experimental free energies of solvation of amino acids and small organic ligands. For a data set of 80 small organic molecules, a correlation coefficient of r2 = 0.78 between calculated and experimental solvation free energies was obtained. Continuum electrostatics pKa calculations based on the Poisson-Boltzmann equation were carried out on a validation set of nine proteins for which 132 experimental pKa values are known. In total, an overall RMSD of 0.88 log units between calculated and experimentally determined data is achieved. In particular, the predictions of significantly shifted pKa values are satisfactory, and reasonable estimates of protonation states in the active sites of lysozyme and xylanase could be obtained. Application of the charge-assignment and pKa-calculation procedure to protein-ligand complexes provides clear structural interpretations of experimentally observed changes of protonation states of functional groups upon complex formation. This information is essential for the interpretation of thermodynamic data of protein-ligand complex formation and provides the basis for the reliable factorization of the free energy of binding in enthalpic and entropic contributions. The modified charge-assignment procedure forms the basis for future automated pKa calculations of protein-ligand complexes. Proteins 2006; © 2006 Wiley-Liss, Inc.}
@@ -2452,8 +2513,8 @@
       \strng{fullhash}{cdb66455da4edae9c9cef7a2d74febe4}
       \strng{authornamehash}{cdb66455da4edae9c9cef7a2d74febe4}
       \strng{authorfullhash}{cdb66455da4edae9c9cef7a2d74febe4}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Physics}
@@ -2462,6 +2523,42 @@
       \field{year}{2013}
       \field{pages}{62\bibrangedash 78}
       \range{pages}{17}
+    \endentry
+    \entry{Li2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=23ad611fd591d0973b54d5329df39172}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Peijun},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0240482389e5dffa24e40d4be604885a}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e87ab8d090293e8481704d5016f6cfd4}{%
+           family={Krasny},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7dff153eecddf4dffeeb4114bdff3e88}
+      \strng{fullhash}{7dff153eecddf4dffeeb4114bdff3e88}
+      \strng{authornamehash}{7dff153eecddf4dffeeb4114bdff3e88}
+      \strng{authorfullhash}{7dff153eecddf4dffeeb4114bdff3e88}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{title}{A {Cartesian} treecode for screened {Coulomb} interactions}
+      \field{volume}{228}
+      \field{year}{2009}
+      \field{pages}{3858\bibrangedash 3868}
+      \range{pages}{11}
     \endentry
     \entry{Juffer1991}{article}{}
       \name{author}{5}{}{%
@@ -2502,8 +2599,8 @@
       \strng{fullhash}{23b6048cb0fda961e2ecb208b5440f49}
       \strng{authornamehash}{73d1bfad969fee512a3ee4623ed57c0e}
       \strng{authorfullhash}{23b6048cb0fda961e2ecb208b5440f49}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Physics}
@@ -2539,8 +2636,8 @@
       \strng{fullhash}{08dd7f263c1d0a461376f5e75c0cbdc9}
       \strng{authornamehash}{08dd7f263c1d0a461376f5e75c0cbdc9}
       \strng{authorfullhash}{08dd7f263c1d0a461376f5e75c0cbdc9}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proc 11th ACM Symp Comp Geom}
@@ -2581,73 +2678,6 @@
       \field{pages}{e59744}
       \range{pages}{-1}
     \endentry
-    \entry{Li2009}{article}{}
-      \name{author}{3}{}{%
-        {{hash=23ad611fd591d0973b54d5329df39172}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Peijun},
-           giveni={P\bibinitperiod}}}%
-        {{hash=0240482389e5dffa24e40d4be604885a}{%
-           family={Johnston},
-           familyi={J\bibinitperiod},
-           given={Hans},
-           giveni={H\bibinitperiod}}}%
-        {{hash=e87ab8d090293e8481704d5016f6cfd4}{%
-           family={Krasny},
-           familyi={K\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{7dff153eecddf4dffeeb4114bdff3e88}
-      \strng{fullhash}{7dff153eecddf4dffeeb4114bdff3e88}
-      \strng{authornamehash}{7dff153eecddf4dffeeb4114bdff3e88}
-      \strng{authorfullhash}{7dff153eecddf4dffeeb4114bdff3e88}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computational Physics}
-      \field{title}{A {Cartesian} treecode for screened {Coulomb} interactions}
-      \field{volume}{228}
-      \field{year}{2009}
-      \field{pages}{3858\bibrangedash 3868}
-      \range{pages}{11}
-    \endentry
-    \entry{Bashford2000}{article}{}
-      \name{author}{2}{}{%
-        {{hash=75c380e7436c25749a1627495e070e4e}{%
-           family={Bashford},
-           familyi={B\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=fe5ac2131b53da2d229a4da2d2d0bc9e}{%
-           family={Case},
-           familyi={C\bibinitperiod},
-           given={D.\bibnamedelimi A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{0f4b36d0c67b5a37031174303c4bb550}
-      \strng{fullhash}{0f4b36d0c67b5a37031174303c4bb550}
-      \strng{authornamehash}{0f4b36d0c67b5a37031174303c4bb550}
-      \strng{authorfullhash}{0f4b36d0c67b5a37031174303c4bb550}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Annual Review in Physical Chemistry}
-      \field{title}{Generalized {Born} models of macromolecular solvation effects}
-      \field{volume}{51}
-      \field{year}{2000}
-      \field{pages}{129\bibrangedash 152}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1146/annurev.physchem.51.1.129
-      \endverb
-    \endentry
     \entry{Humphrey1996}{article}{}
       \name{author}{3}{}{%
         {{hash=8a2e6c1ca5ae93942ef8245fa7c44233}{%
@@ -2682,6 +2712,37 @@
       \field{pages}{33\bibrangedash 8\bibrangessep 27\bibrangedash 8}
       \range{pages}{8}
     \endentry
+    \entry{Bashford2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c380e7436c25749a1627495e070e4e}{%
+           family={Bashford},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fe5ac2131b53da2d229a4da2d2d0bc9e}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f4b36d0c67b5a37031174303c4bb550}
+      \strng{fullhash}{0f4b36d0c67b5a37031174303c4bb550}
+      \strng{authornamehash}{0f4b36d0c67b5a37031174303c4bb550}
+      \strng{authorfullhash}{0f4b36d0c67b5a37031174303c4bb550}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review in Physical Chemistry}
+      \field{title}{Generalized {Born} models of macromolecular solvation effects}
+      \field{volume}{51}
+      \field{year}{2000}
+      \field{pages}{129\bibrangedash 152}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1146/annurev.physchem.51.1.129
+      \endverb
+    \endentry
     \entry{Ermak1978}{article}{}
       \name{author}{2}{}{%
         {{hash=378c8f6a5da6e2847671b4ce2f603562}{%
@@ -2702,8 +2763,8 @@
       \strng{fullhash}{de54e18007da86db0d8e9244a93d1280}
       \strng{authornamehash}{de54e18007da86db0d8e9244a93d1280}
       \strng{authorfullhash}{de54e18007da86db0d8e9244a93d1280}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Chemical Physics}
@@ -2811,8 +2872,8 @@
       \endverb
     \endentry
     \entry{Chimeraweb}{unpublished}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://www.cgl.ucsf.edu/chimera/}}
       \field{title}{{Chimera} website}
@@ -2862,8 +2923,8 @@
       \strng{fullhash}{ea0fa8072ee4ddf2aadc3f227ae59b68}
       \strng{authornamehash}{792ce7139b3e81c1cb20c49075b07531}
       \strng{authorfullhash}{ea0fa8072ee4ddf2aadc3f227ae59b68}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The design, implementation, and capabilities of an extensible visualization system, UCSF Chimera, are discussed. Chimera is segmented into a core that provides basic services and visualization, and extensions that provide most higher level functionality. This architecture ensures that the extension mechanism satisfies the demands of outside developers who wish to incorporate new features. Two unusual extensions are presented: Multiscale, which adds the ability to visualize large-scale molecular assemblies such as viral coats, and Collaboratory, which allows researchers to share a Chimera session interactively despite being at separate locales. Other extensions include Multalign Viewer, for showing multiple sequence alignments and associated structures; ViewDock, for screening docked ligand orientations; Movie, for replaying molecular dynamics trajectories; and Volume Viewer, for display and analysis of volumetric data. A discussion of the usage of Chimera in real-world situations is given, along with anticipated future directions. Chimera includes full user documentation, is free to academic and nonprofit users, and is available for Microsoft Windows, Linux, Apple Mac OS X, SGI IRIX, and HP Tru64 Unix from http://www.cgl.ucsf.edu/chimera/.}
@@ -2879,8 +2940,8 @@
       \endverb
     \endentry
     \entry{Jmolweb}{unpublished}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labeltitlesource}{title}
       \field{note}{\url{http://jmol.sourceforge.net/}}
       \field{title}{{Jmol} website}
@@ -2903,8 +2964,8 @@
       \strng{fullhash}{1dbd02cc7e6bd756f8118f3dc8f86a62}
       \strng{authornamehash}{1dbd02cc7e6bd756f8118f3dc8f86a62}
       \strng{authorfullhash}{1dbd02cc7e6bd756f8118f3dc8f86a62}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry and Molecular Biology Education}
@@ -2927,8 +2988,8 @@
       \strng{fullhash}{f6e258c288053180b9ef71c7764e2b6d}
       \strng{authornamehash}{f6e258c288053180b9ef71c7764e2b6d}
       \strng{authorfullhash}{f6e258c288053180b9ef71c7764e2b6d}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{http://3dmol.csb.pitt.edu/}}
@@ -2959,8 +3020,8 @@
       \strng{fullhash}{d43c12af99df79121d0372cb07cc39dd}
       \strng{authornamehash}{d43c12af99df79121d0372cb07cc39dd}
       \strng{authorfullhash}{d43c12af99df79121d0372cb07cc39dd}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Bioinformatics}
@@ -3021,8 +3082,8 @@
       \strng{fullhash}{a8bc4ba9fe425490da172a4221bca5d6}
       \strng{authornamehash}{1e73324a230c1186f9260cba4a12feeb}
       \strng{authorfullhash}{a8bc4ba9fe425490da172a4221bca5d6}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Chemistry}
@@ -3116,8 +3177,8 @@
       \strng{fullhash}{7e5f859bec24f399d7ec67da660b8306}
       \strng{authornamehash}{06a354906662249148971a83e24fe127}
       \strng{authorfullhash}{7e5f859bec24f399d7ec67da660b8306}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -3165,8 +3226,8 @@
       \strng{fullhash}{8b2f0fef05d239f40bf5ad42083d16a3}
       \strng{authornamehash}{8239213438d57c3c3a33718ea1ec56e2}
       \strng{authorfullhash}{8b2f0fef05d239f40bf5ad42083d16a3}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACS Nano}
@@ -3229,8 +3290,8 @@
       \strng{fullhash}{4aef1aa8bbf005217457c01ca5b33b42}
       \strng{authornamehash}{8c0ba2e85c54a61440f9181ee2964744}
       \strng{authorfullhash}{4aef1aa8bbf005217457c01ca5b33b42}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Carbon nanotubes (CNT) are one of the most promising nanomaterials for use in medicine. The blood biocompatibility of CNT is a critical safety issue. In the bloodstream, proteins bind to CNT through non-covalent interactions to form a protein corona, thereby largely defining the biological properties of the CNT. Here, we characterize the interactions of carboxylated-multiwalled carbon nanotubes (CNTCOOH) with common human proteins and investigate the effect of the different protein coronas on the interaction of CNTCOOH with human blood platelets (PLT). Molecular modeling and different photophysical techniques were employed to characterize the binding of albumin (HSA), fibrinogen (FBG), γ-globulins (IgG) and histone H1 (H1) on CNTCOOH. We found that the identity of protein forming the corona greatly affects the outcome of CNTCOOH's interaction with blood PLT. Bare CNTCOOH-induced PLT aggregation and the release of platelet membrane microparticles (PMP). HSA corona attenuated the PLT aggregating activity of CNTCOOH, while FBG caused the agglomeration of CNTCOOH nanomaterial, thereby diminishing the effect of CNTCOOH on PLT. In contrast, the IgG corona caused PLT fragmentation, and the H1 corona induced a strong PLT aggregation, thus potentiating the release of PMP.}
@@ -3274,8 +3335,8 @@
       \strng{fullhash}{7fd66cf43be5bc99e1fe637f9f791d00}
       \strng{authornamehash}{a33b333c83a951d26f05606356a0360b}
       \strng{authorfullhash}{7fd66cf43be5bc99e1fe637f9f791d00}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Biochemistry}
@@ -3473,8 +3534,8 @@
       \strng{fullhash}{dd2e354b8f0c5969daea25859417653f}
       \strng{authornamehash}{7736d8d6f2791f1fcfc64618e475f295}
       \strng{authorfullhash}{dd2e354b8f0c5969daea25859417653f}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Structure}
@@ -3517,8 +3578,8 @@
       \strng{fullhash}{2d65f869e10b4bfe7be8bc43ff57005c}
       \strng{authornamehash}{aaa28c2330d3dbc13ff730feb20959be}
       \strng{authorfullhash}{2d65f869e10b4bfe7be8bc43ff57005c}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Protein molecular interaction fields are key determinants of protein functionality. PIPSA (Protein Interaction Property Similarity Analysis) is a procedure to compare and analyze protein molecular interaction fields, such as the electrostatic potential. PIPSA may assist in protein functional assignment, classification of proteins, the comparison of binding properties and the estimation of enzyme kinetic parameters. webPIPSA is a web server that enables the use of PIPSA to compare and analyze protein electrostatic potentials. While PIPSA can be run with downloadable software (see http://projects.eml.org/mcm/software/pipsa), webPIPSA extends and simplifies a PIPSA run. This allows non-expert users to perform PIPSA for their protein datasets. With input protein coordinates, the superposition of protein structures, as well as the computation and analysis of electrostatic potentials, is automated. The results are provided as electrostatic similarity matrices from an all-pairwise comparison of the proteins which can be subjected to clustering and visualized as epograms (tree-like diagrams showing electrostatic potential differences) or heat maps. webPIPSA is freely available at: http://pipsa.eml.org.}
@@ -3550,8 +3611,8 @@
       \strng{fullhash}{9e493582dc5fd2eb9410b3ee6c742c01}
       \strng{authornamehash}{9e493582dc5fd2eb9410b3ee6c742c01}
       \strng{authorfullhash}{9e493582dc5fd2eb9410b3ee6c742c01}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer Physics Communications}
@@ -3617,8 +3678,8 @@
       \strng{fullhash}{62194c5db1c42c781051b6a13fa1ab14}
       \strng{authornamehash}{bc3ad13deedb3c19ed5a33b304bb93b6}
       \strng{authorfullhash}{62194c5db1c42c781051b6a13fa1ab14}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The simulation of diffusional association (SDA) Brownian dynamics software package has been widely used in the study of biomacromolecular association. Initially developed to calculate bimolecular protein-protein association rate constants, it has since been extended to study electron transfer rates, to predict the structures of biomacromolecular complexes, to investigate the adsorption of proteins to inorganic surfaces, and to simulate the dynamics of large systems containing many biomacromolecular solutes, allowing the study of concentration-dependent effects. These extensions have led to a number of divergent versions of the software. In this article, we report the development of the latest version of the software (SDA 7). This release was developed to consolidate the existing codes into a single framework, while improving the parallelization of the code to better exploit modern multicore shared memory computer architectures. It is built using a modular object-oriented programming scheme, to allow for easy maintenance and extension of the software, and includes new features, such as adding flexible solute representations. We discuss a number of application examples, which describe some of the methods available in the release, and provide benchmarking data to demonstrate the parallel performance.}
@@ -3691,8 +3752,8 @@
       \strng{fullhash}{e277e5d9fffe520e8dd0789e009f6651}
       \strng{authornamehash}{c17a45ea7e90170c456a291935fe1bf3}
       \strng{authorfullhash}{e277e5d9fffe520e8dd0789e009f6651}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Journal}
@@ -3743,8 +3804,8 @@
       \strng{fullhash}{ca7260b21868497f667d12a92627cc16}
       \strng{authornamehash}{c17a45ea7e90170c456a291935fe1bf3}
       \strng{authorfullhash}{ca7260b21868497f667d12a92627cc16}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Chemistry}
@@ -3785,8 +3846,8 @@
       \strng{fullhash}{654fe1100e8ef07a89d2c821a4d7d52a}
       \strng{authornamehash}{f246e7a3f4b37beb5d0fb97948ebc6aa}
       \strng{authorfullhash}{654fe1100e8ef07a89d2c821a4d7d52a}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Journal}
@@ -3809,8 +3870,8 @@
       \strng{fullhash}{ba98a58febe8bde8cabb78faa6bbbb0e}
       \strng{authornamehash}{ba98a58febe8bde8cabb78faa6bbbb0e}
       \strng{authorfullhash}{ba98a58febe8bde8cabb78faa6bbbb0e}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Methods in Enzymology}
@@ -3840,8 +3901,8 @@
       \strng{fullhash}{0964ea4689657858cedb448210f45148}
       \strng{authornamehash}{0964ea4689657858cedb448210f45148}
       \strng{authorfullhash}{0964ea4689657858cedb448210f45148}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physical Chemistry}
@@ -3864,8 +3925,8 @@
       \strng{fullhash}{3a96320a1ed8a55db64af930c3e4870b}
       \strng{authornamehash}{3a96320a1ed8a55db64af930c3e4870b}
       \strng{authorfullhash}{3a96320a1ed8a55db64af930c3e4870b}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{http://fetk.org/codes/maloc/api/html/index.html}}
@@ -3893,8 +3954,8 @@
       \strng{fullhash}{f9d2bcf75be93a676e05c05ada0be7ed}
       \strng{authornamehash}{f9d2bcf75be93a676e05c05ada0be7ed}
       \strng{authorfullhash}{f9d2bcf75be93a676e05c05ada0be7ed}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a numerical method for calculating the electrostatic potential of molecules in solution, using the linearized Poisson-Boltzmann equation. The emphasis in this work is on applications to biological macromolecules. The accuracy of the method is assessed by comparisons with analytic solutions for the case of a single charge in a dielectric sphere (Tanford-Kirkwood theory), which serves as a model for a macromolecule. We find that the solutions are generally accurate to within 5\%. Larger errors occur close to the charge and the dielectric boundary, but the maximum error found at ion-bonding distance (3 Å) from a charge close to the boundary (1 Å deep) is only ∼15\%. Several algorithmic improvements, described here, contribute to the accuracy of the method. The programs involved compose a coherent software package, called Del Phi, which goes from a Brookhaven Protein Data Bank format file to calculated electrostatic fields.}
@@ -3931,8 +3992,8 @@
       \strng{fullhash}{913da43fc6b8faa8f9de1f156ef8c3f2}
       \strng{authornamehash}{913da43fc6b8faa8f9de1f156ef8c3f2}
       \strng{authorfullhash}{913da43fc6b8faa8f9de1f156ef8c3f2}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer Physics Communications}
@@ -3969,8 +4030,8 @@
       \strng{fullhash}{8b30b69d703fe8b477aa3a94a48cd478}
       \strng{authornamehash}{f2d681e417eacaa3d507b11b18f9cf81}
       \strng{authorfullhash}{8b30b69d703fe8b477aa3a94a48cd478}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Modeling the change in the electrostatics of organic molecules upon moving from vacuum into solvent, due to polarization, has long been an interesting problem. In vacuum, experimental values for the dipole moments and polarizabilities of small, rigid molecules are known to high accuracy; however, it has generally been difficult to determine these quantities for a polar molecule in water. A theoretical approach introduced by Onsager [J. Am. Chem. Soc. 58, 1486 (1936)] used vacuum properties of small molecules, including polarizability, dipole moment, and size, to predict experimentally known permittivities of neat liquids via the Poisson equation. Since this important advance in understanding the condensed phase, a large number of computational methods have been developed to study solutes embedded in a continuum via numerical solutions to the Poisson-Boltzmann equation. Only recently have the classical force fields used for studying biomolecules begun to include explicit polarization in their functional forms. Here the authors describe the theory underlying a newly developed polarizable multipole Poisson-Boltzmann (PMPB) continuum electrostatics model, which builds on the atomic multipole optimized energetics for biomolecular applications (AMOEBA) force field. As an application of the PMPB methodology, results are presented for several small folded proteins studied by molecular dynamics in explicit water as well as embedded in the PMPB continuum. The dipole moment of each protein increased on average by a factor of 1.27 in explicit AMOEBA water and 1.26 in continuum solvent. The essentially identical electrostatic response in both models suggests that PMPB electrostatics offers an efficient alternative to sampling explicit solvent molecules for a variety of interesting applications, including binding energies, conformational analysis, and pK(a) prediction. Introduction of 150 mM salt lowered the electrostatic solvation energy between 2 and 13 kcalmole, depending on the formal charge of the protein, but had only a small influence on dipole moments.}
@@ -4011,8 +4072,8 @@
       \strng{fullhash}{c2bd8146bca9f42ec21d4f26aaa7407e}
       \strng{authornamehash}{2e12084e3b70b774dbee937b36af84e6}
       \strng{authorfullhash}{c2bd8146bca9f42ec21d4f26aaa7407e}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A common problem in the calculation of electrostatic potentials with the Poisson-Boltzmann equation using finite difference methods is the effect of molecular position relative to the grid. Previously a uniform charging method was shown to reduce the grid dependence substantially over the point charge model used in commercially available codes. In this article we demonstrate that smoothing the charge and dielectric values on the grid can improve the grid independence, as measured by the spread of calculated values, by another order of magnitude. Calculations of Born ion solvation energies, small molecule solvation energies, the electrostatic field of superoxide dismutase, and protein-protein binding energies are used to demonstrate that this method yields the same results as the point charge model while reducing the positional errors by several orders of magnitude. © 1997 by John Wiley & Sons, Inc.}
@@ -4093,8 +4154,8 @@
       \strng{fullhash}{c6050462c66a745b50a519a765915a44}
       \strng{authornamehash}{7d5ccbf2b17de0a4ccd0ae782304414b}
       \strng{authorfullhash}{c6050462c66a745b50a519a765915a44}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Chemistry}
@@ -4182,7 +4243,6 @@
       \field{year}{2005}
     \endentry
   \endsortlist
-  \missing{Sarkar2013}
 \endrefsection
 \endinput
 

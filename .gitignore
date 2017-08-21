@@ -5,3 +5,5 @@
 *.out
 *.run.xml
 *.synctex.gz
+*.bib.bak
+*.bib.sav
